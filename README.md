@@ -1,1 +1,1 @@
-React tasks with multiple branches
+React with TypeScript tasks with multiple branches
