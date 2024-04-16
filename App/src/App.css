@@ -1,0 +1,39 @@
+:root {
+  --max-width: 1280px;
+  --padding: 2rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#root {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--padding);
+}
+.main {
+  width: 500px;
+  background-color: gray;
+}
+
+.homePageBanner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/assets/imgs/raw/Girls-Listen-Music_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border-bottom: 5px solid red;
+}
+.homePageBanner h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white;
+}

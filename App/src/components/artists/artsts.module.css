@@ -1,0 +1,26 @@
+h1 {
+    color: black;
+    font-size: 35px !important;
+}
+
+.coverImageDiv {
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.coverImageProps{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.imgContainer {
+    position: relative;
+}
+.imgContainer p {
+    position: absolute;
+    margin-bottom: 11px;
+    bottom: 0;
+    padding: 4px 10px;
+    background-color: rgb(74, 178, 243);
+    color: white;
+}
